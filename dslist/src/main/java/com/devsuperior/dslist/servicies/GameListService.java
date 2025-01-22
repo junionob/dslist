@@ -24,4 +24,6 @@ public class GameListService {
         var result = gameListRepository.findAll().stream().map(GameListDTO::new).toList();
         return result;
     }
+
+
 }
